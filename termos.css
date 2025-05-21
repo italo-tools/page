@@ -1,0 +1,117 @@
+* {
+  overflow-wrap: break-word !important;
+}
+
+#corpo-da-pagina {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+.bloco1 {
+  border: 2px solid white;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco2 {
+   border: 2px solid #808080;
+  border-bottom: 2px solid aliceblue;
+  border-top: 2px solid aliceblue;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco3 {
+   border: 2px solid whitesmoke;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco4 {
+   border: 2px solid gray;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco5 {
+   border: 2px solid #808080;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco6 {
+   border: 2px solid white;
+  border-bottom: 2px solid #808080;
+  border-top: 2px solid #808080;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco7 {
+   border: 2px solid white;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco8 {
+   border: 2px solid white;
+  border-bottom: 2px solid beige;
+  border-top: 2px solid beige;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.bloco1 h2, .bloco2 h2, .bloco3 h2, .bloco4 h2, .bloco5 h2, .bloco6 h2, .bloco7 h2, .bloco8 h2 {
+  color: aliceblue;
+  font-family: times new roman;
+  font-size: 125%;
+}
+
+.bloco1 p, .bloco2 p, .bloco3 p, .bloco4 p, .bloco5 p, .bloco6 p, .bloco7 p, .bloco8 p {
+  color: white;
+  font-family: georgia;
+  font-size: 110%;
+}
+
+.limitacoes {
+  border: 1.2px solid darkblue;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.bloco-2-recisao {
+  border: 1.2px solid beige;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8 {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.bloco1:hover, .bloco2:hover, .bloco3:hover, .bloco4:hover, .bloco5:hover, .bloco6:hover, .bloco7:hover, .bloco8:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
