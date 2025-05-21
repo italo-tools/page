@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+  overflow-wrap: break-word;
+}
+
+#corpo-da-pagina {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.introducao {
+  border: 2px solid crimson;
+  border-bottom: 2px solid #2f2f2f;
+  border-top: 2px solid #808080;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.introducao h2, .introducao h3, .introducao h4 {
+  width: fit-content;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 150%;
+  border: 1.5px solid crimson;
+  border-top: 1.5px solid #3d3d3d;
+  border-bottom: 1.5px solid #3d3d3d;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.introducao p {
+  color: whitesmoke;
+  font-size: 110%;
+  font-family: Georgia;
+  text-align: center;
+  padding: 15px;
+  
+}
+
+.aspectro1 {
+  border: 1.5px solid red;
+  transition: transform 1s ease, background-color 0.3s ease;
+}
+
+.aspectro2 {
+  border: 1.5px solid orange;
+}
+
+.aspectro3 {
+  border: 1.5px solid yellow;
+}
+
+.aspectro4 {
+  border: 1.5px solid green;
+}
+
+.aspectro5 {
+  border: 1.5px solid blue;
+}
+
+.aspectro6 {
+  border: 1.5px solid indigo;
+}
+
+.aspectro7 {
+  border: 1.5px solid violet;
+}
+
+.aspectro8 {
+  border: 1.5px solid white;
+}
+
+.aspectro-ciano {
+  border: 1.5px solid cyan;
+}
+
+.aspectro1 {
+  border: 1.5px solid red;
+  border-radius: 25px;
+}
+
+.aspectro2 {
+  border: 1.5px solid orange;
+  border-radius: 25px;
+}
+
+.aspectro3 {
+  border: 1.5px solid yellow;
+  border-radius: 25px;
+}
+
+.aspectro4 {
+  border: 1.5px solid green;
+  border-radius: 25px;
+}
+
+.aspectro5 {
+  border: 1.5px solid blue;
+  border-radius: 25px;
+}
+
+.aspectro6 {
+  border: 1.5px solid indigo;
+  border-radius: 25px;
+}
+
+.aspectro7 {
+  border: 1.5px solid violet;
+  border-radius: 25px;
+}
+
+.aspectro8 {
+  border: 1.5px solid white;
+  border-radius: 25px;
+}
+
+.aspectro-ciano {
+  border: 1.5px solid cyan;
+  border-radius: 25px;
+}
+
+.responsivo {
+  border: 2px solid #808080;
+  border-bottom: 2px solid darkred;
+  border-top: 2px solid darkred;
+  border-radius: 25px;
+  margin: 25px;
+  padding: 15px;
+}
+
+.responsivo h2 {
+  width: fit-content;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 150%;
+  border: 1.5px solid orange;
+  border-top: 1.5px solid whitesmoke;
+  border-bottom: 1.5px solid white;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.responsivo p {
+  color: white;
+  text-align: center;
+  font-family: georgia;
+  font-size: 110%;
+  border: 1.5px solid crimson;
+  border-top: 1.5px solid white;
+  border-bottom: 1.5px solid whitesmoke;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.teste-responsividade {
+  border: 2px solid #808080;
+  border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.teste-responsividade h2 {
+  width: fit-content;
+  margin: 0 auto;
+  border: 1.5px solid aliceblue;
+  border-bottom: 1.5px solid indigo;
+  border-radius: 25px;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: times new roman;
+}
+
+.teste-responsividade p {
+  border: 1.5px solid darkblue;
+  border-bottom: 1.5px solid #3d3d3d;
+  border-top: 1.5px solid #3d3d3d;
+  border-radius: 25px;
+  
+  color: white;
+  font-size: 110%;
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 15px;
+  font-family: Georgia;
+}
+
+.teste-responsividade a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.meu-projeto {
+  border: 2px solid #808080;
+  border-bottom: 2px solid indigo;
+  border-top: 2px solid indigo;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.meu-projeto h2{
+  width: fit-content;
+  margin: 0 auto;
+  border: 1.5px solid aliceblue;
+  border-bottom: 1.5px solid indigo;
+  border-radius: 25px;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  width: fit-content;
+  padding: 15px;
+  font-family: times new roman;
+}
+
+.meu-projeto p {
+  border: 1.5px solid darkred;
+  border-bottom: 1.5px solid #3d3d3d;
+  border-top: 1.5px solid #3d3d3d;
+  border-radius: 25px;
+  color: white;
+  font-size: 110%;
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 15px;
+  font-family: Georgia;
+}
+
+.ceu-noturno {
+  border: 2px solid #808080;
+  border-bottom: 2px solid indigo;
+  border-top: 2px solid indigo;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.ceu-noturno h2 {
+  width: fit-content;
+  margin: 20px auto;
+  border: 1.5px solid aliceblue;
+  border-bottom: 1.5px solid indigo;
+  border-radius: 25px;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  width: fit-content;
+  padding: 15px;
+  font-family: times new roman;
+}
+
+.ceu-noturno h3 {
+  width: fit-content;
+  margin: 20px auto;
+  border: 1px solid aliceblue;
+  border-bottom: 1px solid indigo;
+  border-radius: 25px;
+  color: white;
+  font-size: 115%;
+  text-align: center;
+  width: fit-content;
+  padding: 15px;
+  font-family: times new roman;
+}
+
+.ceu-noturno p {
+  width: fit-content;
+  margin: 20px auto;
+  border: 1.5px solid aliceblue;
+  border-bottom: 1.5px solid indigo;
+  border-radius: 25px;
+  color: white;
+  font-size: 110%;
+  text-align: center;
+  width: fit-content;
+  padding: 15px;
+  font-family: times new roman;
+}
+
+.solicitacao-de-servico {
+  border: 2px solid #4d4d4d;
+  border-bottom: 2px solid aliceblue;
+  border-top: 2px solid white;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.solicitacao-de-servico h2 {
+  font-size: 150%;
+  color: whitesmoke;
+  font-family: times new roman;
+  text-align: center;
+  padding: 10px;
+}
+
+.solicitacao-de-servico form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.solicitacao-de-servico input {
+  width: 50%;
+  height: 25%;
+  margin: 5px auto;
+  border-radius: 25px;
+  background-color: black;
+  border: 1.5px solid aliceblue;
+  border-bottom: 1.5px solid #2f2f2f;
+  border-top: 1.5px solid  #808080;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 15px;
+}
+
+#servico {
+  height: 100px;
+}
+
+.solicitacao-de-servico button {
+  width: fit-content;
+  font-size: 100%;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: georgia;
+  font-style: italic;
+  margin: 15px auto;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: black;
+  border: 1.5px solid aqua;
+  border-bottom: 1.5px solid #2f2f2f;
+  border-top: 1.5px solid  #808080;
+}
+
+.aspectro1,
+.aspectro2,
+.aspectro3,
+.aspectro4,
+.aspectro5,
+.aspectro6,
+.aspectro7,
+.aspectro8,
+.aspectro-ciano,
+.responsivo p,
+.teste-responsividade p,
+.meu-projeto p,
+.ceu-noturno p {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.aspectro1:hover,
+.aspectro2:hover,
+.aspectro3:hover,
+.aspectro4:hover,
+.aspectro5:hover,
+.aspectro6:hover,
+.aspectro7:hover,
+.aspectro8:hover,
+.aspectro-ciano:hover,
+.responsivo p:hover,
+.teste-responsividade p:hover,
+.meu-projeto p:hover,
+.ceu-noturno p:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
