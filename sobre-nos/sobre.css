@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   overflow-wrap: break-word;
+  user-select: none;
 }
 
 *:focus {
