@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- tags primordiais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criação de sites estáticos personalizados e acessíveis. Portfólio, projetos e negócios online com qualidade e dedicação.">
+<meta name="keywords" content="site estático, front-end, web design, responsividade, HTML, CSS, JavaScript">
+    <title>Italo C Lopes</title>
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+    
+    <!-- icones -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- css do site -->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="inicial.css">
+    
+    <!-- script -->
+    <script src="global.js" defer></script>
+</head>
+<body>
+    
+        <!-- menu e capa -->
+    <header>
+    <img id="cabecalho" src="imagens/banner04.jpeg" alt="Capa">
+         <!-- menu -->
+    <div id="side-bar">
+<img class="perfil" src="imagens/logo.png" alt="Perfil">
+    </div>
+<!-- Menu de navegação -->
+<nav id="menu">
+    <div id="espaco-vazio">
+    <ul>
+        
+        <li class="menu-list"><a href="/">Início</a></li>
+        <li class="menu-list"><a href="sobre-nos/">Sobre Nós</a></li>
+<li class="menu-list"><a href="contato/">Contato</a></li>
+        <li class="menu-list"><a href="projetos/">Projetos</a></li>
+        <li class="menu-list"><a href="politica-privacidade/">Política De Privacidade</a></li>
+<li class="menu-list"><a href="termos-condicoes/">Termos E Condições</a></li>
+        </ul>
+    </div>
+</nav>
+        <!-- Minha pessoa -->
+        section id="meu-nome">
+        <h1>ITALO CARLOS LOPES</h1>
+        <p id="frase">Always innovating, inspiring the future.</p>
+    </section>
+    </header>
+    
+    <!-- Corpo da pagina -->
+    <main id="corpo-da-pagina">
+        <section id="sobre-mim">
+  <h2>Sobre Mim</h2>
+    <p>
+      E aí! Sou o Italo, um cara do interior de Minas Gerais, gente boa (pelo menos eu acho 😆), que curte animes, manhwas e livros, apesar de estar meio afastado das maratonas de anime ultimamente. Tenho me dedicado mais à leitura e ao treino físico, tentando manter tudo equilibrado. Solteiro aos 26 anos, com uma trajetória profissional que mais parece um menu degustação: já mexi com computação, lavoura de café, criei porcos e frangos, e fiz de tudo um pouco em serviços gerais. Gosto de uma boa companhia, mas às vezes um momento só comigo mesmo é tudo o que preciso. Sou o caçula e único homem entre cinco irmãos, na busca pela tão sonhada estabilidade e liberdade. No fim das contas, sou um cara simples, pé no chão, tentando encontrar meu caminho enquanto aproveito a jornada.
+    </p>
+      <a class="primeiro-botao" href="sobre/" class="saiba-mais">Saiba mais...!</a>
+    </section>
+        <!-- experiencias -->
+        <section class="organizar-em-row">
+<section id="experiencia">
+  <h2>Área de atuação</h2>
+
+  <div class="experiencia-card">
+    <div>
+      <p class="cargo">Desenvolvedor Front-End</p>
+      <p class="tempo">2 anos</p>
+    </div>
+  </div>
+
+  <div class="experiencia-card">
+    <div>
+      <p class="cargo">Web Designer</p>
+      <p class="tempo">1 ano</p>
+    </div>
+  </div>
+</section>
+
+         <!-- educação -->
+<section id="escolaridade">
+  <h2>Nivel educacional</h2>
+
+  <div class="organizar-educacao">
+      <div class="educacao-card">
+      <p class="nivel">Ensino Médio Completo</p>
+      <p class="info">Concluído</p>
+    </div>
+
+  <div class="educacao-card">
+      <p class="nivel">Aprendizado contínuo</p>
+      <p class="info">Formação contínua da vida</p>
+    </div>
+  </div>
+</section>
+</section>
+<section id="parceria">
+    <div class="parceria-card">
+  <h2>Parceria!</h2>
+    </div>
+    <div>
+      <p class="paragrafo-parceria">Estou pegando pequenos projetos para desenvolver minhas habilidas, então se quiser algo legal a um preço bacana..!</p>
+        <a class="segundo-botao" href="parcerias/">Saiba mais...!</a>
+  </div>
+</section>
+</main>
+
+<!-- avaliação -->
+<div id="style-space">
+    <form id="formulario" action="https://formspree.io/f/meogvdop" method="post">
+        <h3 class="titulo-formulario">Deixe seu feedback!</h3>
+    <p class="paragrafo-formulario">Sua opinião é importante..!</p>
+        <label for="avaliacao">Avaliação:</label>
+<div class="strelas">
+    <input type="radio" id="estrela5" name="avaliacao" value="5">
+    <label for="estrela5">★</label>
+    
+    <input type="radio" id="estrela4" name="avaliacao" value="4">
+    <label for="estrela4">★</label>
+    
+    <input type="radio" id="estrela3" name="avaliacao" value="3">
+    <label for="estrela3">★</label>
+    
+    <input type="radio" id="estrela2" name="avaliacao" value="2">
+    <label for="estrela2">★</label>
+    
+    <input type="radio" id="estrela1" name="avaliacao" value="1">
+    <label for="estrela1">★</label>
+</div>
+<label for="nome"></label>
+<input type="text" id="nome" name="nome" class="style-formulario"  placeholder="Nome:"required>
+
+<label for="email"></label>
+<input type="email" id="email" name="email" class="style-formulario"  placeholder="E-mail:"required>
+
+<label for="comentarios"></label>
+<textarea id="comentarios" name="comentarios" class="style-formulario" rows="4" placeholder="Comentario:"required></textarea>
+<button class="terceiro-botao" type="submit">Enviar</button>
+</form>
+</div>
+
+        <!-- rodapé do site -->
+<footer id="rodape">
+    <article id="rede-social">
+        <h2 class="titulo-contato">Me Siga Em Minhas Redes Sociais:</h2>
+        <div class="social-link"><a class="social-link" href="https://www.instagram.com/italo.tools?igsh=eHR3ZmgxdHpocGg4" class="ripple-link" onclick="playSound()" target="_blank"><img class="social-image" src="imagens/insta.jpg"></a>
+        <a class="social-link" href="https://github.com/italo-tools"><img class="social-image" src="imagens/git.jpg"></a>
+        <a class="social-link" href="https://discord.com/users/1304330696663371837" class="ripple-link" onclick="playSound()" target="_blank"><img class="social-image" src="imagens/discord.jpg"></a>
+        <a class="social-link" href="https://wa.me/5537998037184?text=Ol%C3%A1%21%20Site%20maneiro%21" class="ripple-link" onclick="playSound()" target="_blank"><img class="social-image" src="imagens/whats.jpg"></a></div>
+    </div>
+    <div class="bloco-contato">
+        <h2 class="titulo-contato">Entre em contato:</h2>  
+        <div class="bloco-icon-contato"></div>    <a href="mailto:italo.frontte@email.com"><i class="fa-solid fa-envelope"></i></a>
+<a href="tel:+5537998037184"><i class="fa-solid fa-phone"></i></a></div>
+    <div id="selo-pai">
+        <img class="selo-filho" src="imagens/selo.jpeg"></a>
+    </div>
+    </div>
+    <div id="politica-termos">
+        <a href="privacidade/">Politíca de privacidade</a> | <a href="termos/">Termos e condições</a>
+    </div>
+    <h2 class="titulo-publicacao">Desde 08 de maio de 2025</h2>
+    </footer>
+           
+<!-- audio -->
+<audio id="click-sound" src="https://raw.githubusercontent.com/italo-tools/page/main/sons/click.mp3" preload="auto"></audio>
+</body>
+    </html>

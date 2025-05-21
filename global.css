@@ -1,0 +1,176 @@
+/* Configuração Global */
+body {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+/* menu interativo */
+#espaco-vazio {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  display: none;
+  z-index: 900;
+}
+
+/* botão para abrir o menu */
+#side-bar .perfil {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+.perfil {
+  width:70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid aqua;
+}
+
+
+/* seção de configuração do menu */
+#menu {
+  position: fixed;
+  top: -200%;
+  left: 0;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: top 0.3s ease;
+  z-index: 1000;
+}
+
+#menu.active {
+  top: 0;
+}
+
+/* Lista interna do menu */
+#menu ul {
+  margin: 6rem 30px 0 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  gap: 15px;
+}
+
+/* Itens individuais do menu */
+#menu .menu-list {
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+/* Links do menu */
+#menu a {
+  font-size: 120%;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/* seção de configuração do cabeçalho */
+#cabecalho {
+  top: 0;
+  width: 100%;
+  height: 250px;
+  border-bottom: 2px solid aliceblue;
+}
+
+#meu-nome {
+  justify-items: center;
+}
+
+#meu-nome h1 {
+  display: flex;
+  flex-wrap: nowrap;
+  color: aliceblue;
+  text-align: center;
+  font-size: 140%;
+  font-family: times new roman;
+}
+
+#frase {
+  display: flex;
+  color: aqua;
+  font-size: 120%;
+  margin-top: -1rem;
+  font-family: georgia;
+}
+
+/* seção de configuração do footer */
+#rodape {
+  text-align: center;
+  width: 100%;
+  background-color: beige;
+  bottom: 0;
+  border-top: 4px solid white;
+  
+}
+
+.titulo-contato {
+  font-family: times new roman;
+  font-size: 125%;
+  color: black;
+}
+
+#rodape .social-link {
+  display: inline;
+  justify-content: center;
+  padding: 10px;
+}
+
+.social-image {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+
+.bloco-icon-contato i {
+  display: flex;
+  justify-content: center;
+}
+
+.bloco-contato i {
+  font-size: 40px;
+  padding: 30px;
+  color: darkblue;
+}
+
+#selo-pai {
+  display: flex;
+  justify-content: center;
+}
+
+.selo-filho {
+  width: 5em;
+  height: 5em;
+}
+
+#politica-termos a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 110%;
+  font-weight: bold;
+  font-family: times new roman;
+  
+}
+
+.titulo-publicacao {
+  color: darkorange;
+  font-family: georgia;
+  font-size: 110%;
+}
